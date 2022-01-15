@@ -1,0 +1,38 @@
+{
+  "name": "speedtest",
+  "version": "1.0.0",
+  "description": "Tests internet connection speed on a timer using speedtest.net.",
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjp2525/speedtest.git"
+  },
+  "author": "Reno Philibert <renophilibert@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rjp2525/speedtest/issues"
+  },
+  "homepage": "https://github.com/rjp2525/speedtest#readme",
+  "dependencies": {
+    "ava": "^3.10.1",
+    "chalk": "^4.1.0",
+    "execa": "^4.0.3",
+    "log-symbols": "^4.0.0",
+    "log-update": "^4.0.0",
+    "meow": "^7.0.1",
+    "ora": "^4.0.5",
+    "round-to": "^4.1.0",
+    "speedtest-net": "^2.1.1",
+    "update-notifier": "^4.1.0",
+    "xo": "^0.32.1"
+  }
+}
